@@ -13,6 +13,7 @@ function NavBar() {
       <a className={styles.a} href="#about">
         About
       </a>
+
       <a className={styles.a} href="#proyects">
         Projects
       </a>

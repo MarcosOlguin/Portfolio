@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Proyects() {
   return (
-    <div style={{ display: "grid", placeContent: "center", paddingTop: 400 }}>
+    <div style={{ display: "grid", placeContent: "center", paddingTop: 60 }}>
       <h2 className={styles.mainTitle}>My Proyects</h2>
       <p className={styles.p}>
         These are some of the projects that I have developed

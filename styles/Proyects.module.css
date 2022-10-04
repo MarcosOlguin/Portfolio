@@ -4,12 +4,12 @@
   margin-bottom: 10px;
 }
 .pageContainer {
-  width: 600px;
+  width: 500px;
 }
 
 .proyect {
-  width: 600px;
-  height: 303px;
+  width: 500px;
+  height: 253px;
   overflow: hidden;
   display: inline-block;
   position: relative;
@@ -33,7 +33,7 @@
 
 .btn {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 38%;
   transition: 0.5s;
   opacity: 0;
@@ -50,9 +50,10 @@
 .container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   background-color: #19112e;
-  width: 1800px;
+  padding-top: 4%;
+  width: 90vw;
   height: 600px;
   margin-bottom: 10rem;
 }

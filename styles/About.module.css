@@ -1,12 +1,13 @@
 .container {
   display: flex;
   flex-direction: row;
-  width: 99vw;
+  width: 98vw;
   gap: 0rem;
   padding-top: 7rem;
   margin: auto;
   height: 80vh;
   justify-content: space-around;
+  margin-bottom: 200px;
 }
 
 .aboutMeContainer {

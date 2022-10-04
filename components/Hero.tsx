@@ -11,7 +11,7 @@ function Hero() {
   return (
     <>
       <div className={styles.container}>
-        <div>
+        <div className={styles.titleDecriptionContainer}>
           <div>
             <motion.div className={styles.h1Container}>
               <span className={styles.span}>{"<"}</span>
@@ -52,7 +52,8 @@ function Hero() {
             className={styles.description}
           >
             I am a web developer focused on the Front End, I develop all kinds
-            of web applications, e-commerce, mobile, crypto tracking, and more
+            of web applications, e-commerce, mobile, crypto tracking, and
+            more...
           </motion.p>
         </div>
         <div>
