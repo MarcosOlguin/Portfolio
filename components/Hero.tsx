@@ -5,8 +5,6 @@ import { motion } from "framer-motion";
 import svgBackground from "../public/cvundraw.svg";
 import Link from "next/link";
 
-console.log(svg);
-
 function Hero() {
   return (
     <>
