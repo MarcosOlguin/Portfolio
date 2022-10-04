@@ -14,10 +14,10 @@ function Proyects() {
       <div className={styles.container}>
         <div className={styles.pageContainer}>
           <div className={styles.proyect}>
-            <Image className={styles.img} src={img1} />
+            <Image className={styles.img} src={img1} alt={"img"} />
             <div>
               <Link href={"https://e-commerce-coderhouse-b0e54.web.app/"}>
-                <a target="_blank" className={styles.btn}>
+                <a target="_blank" className={styles.btn} rel="noreferrer">
                   {"Visit Website >"}
                 </a>
               </Link>
@@ -32,10 +32,10 @@ function Proyects() {
 
         <div className={styles.pageContainer}>
           <div className={styles.proyect}>
-            <Image className={styles.img} src={img2}></Image>
+            <Image className={styles.img} src={img2} alt={"img"}></Image>
             <div>
               <Link href={"https://markoscap.netlify.app/"}>
-                <a target="_blank" className={styles.btn}>
+                <a target="_blank" className={styles.btn} rel="noreferrer">
                   {"Visit Website >"}
                 </a>
               </Link>

@@ -63,6 +63,7 @@ function SkillsIcons() {
               src={icon.img}
               width={120}
               height={100}
+              alt={"img"}
             />
           </motion.a>
         ))}

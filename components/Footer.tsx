@@ -10,17 +10,18 @@ function Footer() {
       <div>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.linkedin.com/in/marcos-olguin-fullstack/"
           className={styles.iconContainer}
         >
-          <Image src={linkedinIcon} width={20} height={20} />
+          <Image src={linkedinIcon} width={20} height={20} alt={"img"} />
           <span>Linkedin</span>
         </a>
       </div>
 
       <div>
         <a className={styles.iconContainer}>
-          <Image src={gmail} width={20} height={20} />
+          <Image src={gmail} width={20} height={20} alt={"img"} />
           <span>marcosaolguin@gmail.com</span>
         </a>
       </div>

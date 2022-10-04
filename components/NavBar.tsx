@@ -1,9 +1,5 @@
 import styles from "../styles/NavBar.module.css";
-import { motion, useScroll } from "framer-motion";
-import Link from "next/link";
-import Image from "next/image";
-import linkedinIcon from "../public/linkedin-icon.svg";
-import githubIcon from "../public/github-icon.svg";
+import { motion } from "framer-motion";
 
 function NavBar() {
   return (

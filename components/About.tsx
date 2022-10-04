@@ -43,6 +43,7 @@ function About() {
           <a
             className={styles.resumeBtn}
             target="_blank"
+            rel="noreferrer"
             href="https://drive.google.com/file/d/1CrD5TWRf32Que5AAoD3jLIXA0r2oCjUF/view"
           >
             {"Resume >"}
@@ -50,7 +51,7 @@ function About() {
         </div>
       </div>
       <div className={styles.image}>
-        <Image src={cv} width={750} height={400} />
+        <Image src={cv} width={750} height={400} alt={"img"} />
       </div>
     </div>
   );
