@@ -1,0 +1,39 @@
+.skillsIcon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 900px;
+  margin-top: 2rem;
+  z-index: -100;
+}
+.img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.1s;
+  width: 120px;
+  height: 100px;
+}
+
+.img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+@media screen and (max-width: 400px) {
+  .skillsIcon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+    z-index: -100;
+  }
+
+  .img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 0.1s;
+    width: 100px;
+  }
+}

@@ -1,0 +1,30 @@
+.container {
+  height: 10vh;
+  background-color: #19112e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.iconContainer:hover {
+  color: blueviolet;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    height: 20vh;
+    background-color: #19112e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+  }
+}

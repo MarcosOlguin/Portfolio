@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 99vw;
+  gap: 0rem;
+  padding-top: 7rem;
+  margin: auto;
+  height: 80vh;
+  justify-content: space-around;
+}
+
+.aboutMeContainer {
+  width: 50%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.aboutTitle {
+  display: flex;
+  gap: 20px;
+  height: 100px;
+}
+
+.cv {
+  overflow: visible;
+  margin-top: -30px;
+  transition: 0.5s;
+}
+.cv:hover {
+  scale: 1.1;
+  overflow: visible;
+}
+
+.resumeBtn {
+  margin-top: 0px;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  transition: 0.5s;
+  border: 1px solid white;
+}
+
+.resumeBtn:hover {
+  font-size: 18px;
+  background-color: #6a1ac4;
+}
+
+.image {
+  align-self: center;
+
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    width: 99vw;
+    gap: 0rem;
+    padding-top: 3.2rem;
+    margin: auto;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+
+  .about {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 40px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 40px;
+  }
+  .aboutMeContainer {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

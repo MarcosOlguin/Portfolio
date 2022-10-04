@@ -1,0 +1,48 @@
+.navBar {
+  display: flex;
+  color: #50ff90;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: -1px;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  scroll-behavior: smooth;
+  margin-bottom: 0rem;
+  margin-top: 15rem;
+  z-index: 1;
+
+  backdrop-filter: blur(10px);
+  background-color: rgb(19, 15, 41, 0.3);
+}
+
+.a:hover {
+  color: white;
+}
+
+.pageIcon {
+  color: #50ff90;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  .navBar {
+    display: flex;
+    color: #50ff90;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    scroll-behavior: smooth;
+    margin-bottom: 0rem;
+    margin-top: 15rem;
+    z-index: 1;
+
+    backdrop-filter: blur(10px);
+    background-color: rgb(19, 15, 41, 0.3);
+  }
+}

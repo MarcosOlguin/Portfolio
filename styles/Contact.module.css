@@ -1,0 +1,158 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.NameEmailContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  border-width: 0px;
+  border-bottom: 1px solid;
+}
+.textareaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50%;
+  gap: 5%;
+}
+.textarea:focus {
+  outline: none;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 0;
+  background-color: transparent;
+  border-width: 0px;
+  border-bottom: 1px solid;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+.titleContainer {
+  margin: auto;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  width: 30%;
+}
+
+.p {
+  font-size: 26px;
+}
+
+.container {
+  margin-top: 10rem;
+  height: 80vh;
+}
+
+.materialIcons {
+  align-self: flex-start;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  cursor: pointer;
+  animation-name: icon-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.submitContainer {
+  display: flex;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  width: 140px;
+  margin: auto;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  width: 140px;
+  margin: auto;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.btn:hover {
+  background-color: #6a1ac4;
+}
+
+@media screen and (max-width: 400px) {
+  .h2 {
+    font-size: 40px;
+  }
+  .titleContainer {
+    margin: auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    height: 300px;
+    padding-bottom: 0rem;
+  }
+}
