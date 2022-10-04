@@ -26,7 +26,7 @@ function Hero() {
 
                   duration: 1,
                 }}
-                className={styles.span}
+                className={styles.spanText}
               >
                 {"|"}
               </motion.span>
