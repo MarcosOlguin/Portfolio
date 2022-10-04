@@ -65,6 +65,7 @@ function Hero() {
             }}
             className={styles.svgContainer}
             src={svg.src}
+            alt="img"
           />
         </div>
 
