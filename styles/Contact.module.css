@@ -72,8 +72,8 @@
 
 .container {
   margin-top: 10rem;
-  margin-bottom: 10rem;
-  height: 80vh;
+  margin-bottom: 0rem;
+  height: 70vh;
 }
 
 .materialIcons {
@@ -158,5 +158,10 @@
     justify-content: space-evenly;
     height: 300px;
     padding-bottom: 0rem;
+  }
+  .container {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    height: 80vh;
   }
 }
