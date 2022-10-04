@@ -108,7 +108,7 @@
   color: #50ff90;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .container {
     display: flex;
     flex-direction: column;
