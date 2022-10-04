@@ -43,6 +43,7 @@ function SkillsIcons() {
             target="_blank"
             href={icon.url}
             key={i}
+            rel="noreferrer"
             initial={{ opacity: 0, color: "grey" }}
             whileInView={{
               opacity: 1,
