@@ -51,6 +51,7 @@ function Contact() {
               type="text"
               name="from_name"
               placeholder="Name"
+              required
             />
           </div>
 
@@ -62,6 +63,7 @@ function Contact() {
               type="email"
               name="email"
               placeholder="Email"
+              required
             />
           </div>
         </div>
@@ -71,6 +73,7 @@ function Contact() {
             className={styles.textarea}
             name="message"
             placeholder="Message"
+            required
           />
         </div>
 

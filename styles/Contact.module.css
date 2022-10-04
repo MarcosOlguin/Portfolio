@@ -27,6 +27,7 @@
   background-color: transparent;
   border-width: 0px;
   border-bottom: 1px solid;
+  color: white;
 }
 .textareaContainer {
   display: flex;
@@ -46,6 +47,7 @@
   background-color: transparent;
   border-width: 0px;
   border-bottom: 1px solid;
+  color: white;
 }
 
 .input:focus {
@@ -129,6 +131,7 @@
   transition: 0.5s;
   cursor: pointer;
   margin-top: 25px;
+  color: white;
 }
 .btn:hover {
   background-color: #6a1ac4;

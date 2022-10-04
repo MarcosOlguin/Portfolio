@@ -8,7 +8,7 @@ function Proyects() {
   return (
     <div style={{ display: "grid", placeContent: "center", paddingTop: 400 }}>
       <h2 className={styles.mainTitle}>My Proyects</h2>
-      <p style={{ textAlign: "center", fontSize: 20 }}>
+      <p className={styles.p}>
         These are some of the projects that I have developed
       </p>
       <div className={styles.container}>
@@ -23,8 +23,8 @@ function Proyects() {
               </Link>
             </div>
           </div>
-          <h2>Furniture E-commerce</h2>
-          <p>
+          <h2 className={styles.h2andp}>Furniture E-commerce</h2>
+          <p className={styles.h2andp}>
             An e-commerce for the sale of furniture, you can make the purchase
             of several products and it is registered in the database
           </p>
@@ -41,8 +41,8 @@ function Proyects() {
               </Link>
             </div>
           </div>
-          <h2>Cripto Tracking App</h2>
-          <p>
+          <h2 className={styles.h2andp}>Cripto Tracking App</h2>
+          <p className={styles.h2andp}>
             A single page website to track the top cryptocurrencies in the
             market and their capitalizations
           </p>

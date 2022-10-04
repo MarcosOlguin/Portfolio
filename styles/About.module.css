@@ -80,11 +80,13 @@
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 40px;
+    margin-left: 25px;
   }
 
   .title {
     text-align: center;
     font-size: 40px;
+    margin-left: 25px;
   }
   .aboutMeContainer {
     width: 100%;
@@ -92,5 +94,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .resumeBtn {
+    margin-top: 0px;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 1px solid white;
+    margin-left: 25px;
   }
 }

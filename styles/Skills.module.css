@@ -19,4 +19,8 @@
     margin-top: 600px;
     height: 100vh;
   }
+  .p {
+    font-size: 20px;
+    margin-left: 25px;
+  }
 }

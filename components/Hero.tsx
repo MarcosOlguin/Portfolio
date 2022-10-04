@@ -17,7 +17,7 @@ function Hero() {
               <span className={styles.span}>{"<"}</span>
               <div className={styles.titleSubtitleContainer}>
                 <h1 className={styles.h1}>Marcos Olguin</h1>
-                <h2 className={styles.subtitle}>Desarrollador Front-End</h2>
+                <h2 className={styles.subtitle}>Front-End Developer</h2>
               </div>
 
               <span className={styles.span}>{"/>"}</span>
