@@ -18,7 +18,7 @@
   color: blueviolet;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   .container {
     height: 20vh;
     background-color: #19112e;

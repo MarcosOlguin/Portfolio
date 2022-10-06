@@ -19,7 +19,7 @@
   filter: grayscale(0%);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   .skillsIcon {
     display: flex;
     justify-content: center;
