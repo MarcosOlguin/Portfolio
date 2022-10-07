@@ -44,7 +44,7 @@ function About() {
             className={styles.resumeBtn}
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1CrD5TWRf32Que5AAoD3jLIXA0r2oCjUF/view"
+            href="https://drive.google.com/file/d/1h0EyJXZhr_rRwrwSwFgNez4PFPilhxr8/view?usp=sharing"
           >
             {"Resume >"}
           </a>
