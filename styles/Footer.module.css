@@ -17,6 +17,17 @@
 .iconContainer:hover {
   color: blueviolet;
 }
+@media screen and (max-width: 1600px) {
+  .container {
+    height: 10vh;
+    width: 100%;
+    background-color: #19112e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+  }
+}
 
 @media screen and (max-width: 900px) {
   .container {
