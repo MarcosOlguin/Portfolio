@@ -3,6 +3,7 @@ import Image from "next/image";
 import img1 from "../public/ecommerce2.png";
 import img2 from "../public/markoscap.png";
 import Link from "next/link";
+import dobleb from "../public/linkedinDesk.png";
 
 function Proyects() {
   return (
@@ -27,6 +28,23 @@ function Proyects() {
           <p className={styles.h2andp}>
             An e-commerce for the sale of furniture, you can make the purchase
             of several products and it is registered in the database
+          </p>
+        </div>
+        <div className={styles.pageContainer}>
+          <div className={styles.proyect}>
+            <Image className={styles.img} src={dobleb} alt={"img"} />
+            <div>
+              <Link href={"https://doble-b.vercel.app/"}>
+                <a target="_blank" className={styles.btn} rel="noreferrer">
+                  {"Visit Website >"}
+                </a>
+              </Link>
+            </div>
+          </div>
+          <h2 className={styles.h2andp}>Barbershop</h2>
+          <p className={styles.h2andp}>
+            Website for a barber shop, you can create a user and book
+            appointments online.
           </p>
         </div>
 
