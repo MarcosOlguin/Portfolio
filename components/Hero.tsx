@@ -15,7 +15,7 @@ function Hero() {
               <span className={styles.span}>{"<"}</span>
               <div className={styles.titleSubtitleContainer}>
                 <h1 className={styles.h1}>Marcos Olguin</h1>
-                <h2 className={styles.subtitle}>Front-End Developer</h2>
+                <h2 className={styles.subtitle}>FullStack Developer</h2>
               </div>
 
               <span className={styles.span}>{"/>"}</span>
@@ -49,9 +49,8 @@ function Hero() {
             }}
             className={styles.description}
           >
-            I am a web developer focused on the Front End, I develop all kinds
-            of web applications, e-commerce, mobile, crypto tracking, and
-            more...
+            I'm a FullStack web developer, I develop freelance projects of all
+            kinds, e-commerce, mobile, cryptocurrency tracking, and more...
           </motion.p>
         </div>
         <div>
