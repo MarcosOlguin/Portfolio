@@ -49,7 +49,7 @@ function Hero() {
             }}
             className={styles.description}
           >
-            I'm a FullStack web developer, I develop freelance projects of all
+            I am a FullStack web developer, I develop freelance projects of all
             kinds, e-commerce, mobile, cryptocurrency tracking, and more...
           </motion.p>
         </div>
