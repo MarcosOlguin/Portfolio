@@ -28,12 +28,11 @@ function About() {
 
         <div>
           <p className={styles.about}>
-            Hello! My name is Marcos and I like to create web applications, I
-            focus on learning everything related to this, I always try to use
-            new technologies to expand my knowledge. I started to dedicate
-            myself to web programming at the beginning of 2022, although since
-            2015 I have been in contact with it when I went to a technical
-            institute.
+            Hi! My name is Marcos and I like to create web applications, I focus
+            on learning everything related to this, I always try to use new
+            technologies to expand my knowledge. I started to dedicate myself to
+            web programming at the beginning of 2022, although since 2015 I have
+            been in contact with it when I went to a technical institute.
             <br />I am currently developing projects on a freelance basis while
             I am in search of a professional team to join.
           </p>
