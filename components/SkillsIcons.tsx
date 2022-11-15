@@ -15,6 +15,8 @@ import styles from "../styles/Skillsicons.module.css";
 import routerIcon from "../public/router.svg";
 import tsIcon from "../public/typescript-icon.svg";
 import bootstrapIcon from "../public/bootstrap.svg";
+import nodejs from "../public/nodejs-icon.svg";
+import mongo from "../public/mongodb-icon.svg";
 
 const array = [
   { img: reactIcon, url: "https://es.reactjs.org/" },
@@ -29,9 +31,10 @@ const array = [
   { img: firebaseIcon, url: "https://firebase.google.com/" },
   { img: gitIcon, url: "https://git-scm.com/" },
   { img: githubIcon, url: "https://github.com/" },
-
+  { img: nodejs, url: "https://nodejs.org/en/" },
   { img: reactqueryIcon, url: "https://react-query-v3.tanstack.com/" },
   { img: routerIcon, url: "https://reactrouter.com/en/main" },
+  { img: mongo, url: "https://www.mongodb.com" },
 ];
 
 function SkillsIcons() {
