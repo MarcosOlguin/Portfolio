@@ -28,7 +28,7 @@ function Proyects() {
           <h2 className={styles.h2andp}>Furniture E-commerce</h2>
           <p className={styles.h2andp}>
             An e-commerce for the sale of furniture, you can make the purchase
-            of several products and it is registered in the database
+            of several products and it is registered in the database.
           </p>
         </div>
         <div className={styles.pageContainer}>
@@ -79,8 +79,8 @@ function Proyects() {
           </div>
           <h2 className={styles.h2andp}>Link Tree</h2>
           <p className={styles.h2andp}>
-            Linktree is a tool that unites several links on a single page to
-            facilitate traffic between your brand's different websites.
+            Linktree is a tool that joins several links on a single page to
+            facilitate traffic between the different sites you have.
           </p>
         </div>
       </div>
