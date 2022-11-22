@@ -28,7 +28,7 @@ function Proyects() {
           <h2 className={styles.h2andp}>Furniture E-commerce</h2>
           <p className={styles.h2andp}>
             An e-commerce for the sale of furniture, you can make the purchase
-            of several products and it is registered in the database.
+            of several products and it is registered in the database
           </p>
         </div>
         <div className={styles.pageContainer}>
